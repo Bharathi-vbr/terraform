@@ -59,37 +59,32 @@ Copy
 Edit
 git clone https://github.com/<your-username>/terraform-aws-infrastructure.git
 cd terraform-aws-infrastructure
-🔹 Step 2: Initialize Terraform
-bash
-Copy
-Edit
+
+### 🔹 Step 2: Initialize Terraform
 terraform init
-🔹 Step 3: Review the Plan
-bash
-Copy
-Edit
+
+### 🔹 Step 3: Review the Plan
 terraform plan
-🔹 Step 4: Apply Infrastructure
-bash
-Copy
-Edit
+
+### 🔹 Step 4: Apply Infrastructure
 terraform apply
+
 Confirm with yes when prompted
 
-🔹 Step 5: Destroy Infrastructure (Optional)
-bash
-Copy
-Edit
+### 🔹 Step 5: Destroy Infrastructure (Optional)
+
 terraform destroy
-🔐 Security Notes
+
+
+### 🔐 Security Notes
 Do NOT commit .tfvars or AWS credentials to version control.
 
 Use IAM roles or environment variables for authentication.
 
-🧾 User Data Scripts
+### 🧾 User Data Scripts
 userdata1.sh and userdata2.sh initialize EC2 instances (e.g., installing packages, setting up services).
 
-📄 License
+### 📄 License
 Licensed under the MIT License. See the LICENSE file for details.
 
 Created with ❤️ using Terraform and AWS
