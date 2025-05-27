@@ -57,7 +57,7 @@ Edit
 bash
 Copy
 Edit
-git clone https://github.com/<your-username>/terraform-aws-infrastructure.git
+git clone https://github.com/Bharathi-vbr/terraform-aws-infrastructure.git
 cd terraform-aws-infrastructure
 
 ### 🔹 Step 2: Initialize Terraform
