@@ -85,9 +85,3 @@ Use IAM roles or environment variables for authentication.
 ### 🧾 User Data Scripts
 userdata1.sh and userdata2.sh initialize EC2 instances (e.g., installing packages, setting up services).
 
-
-✅ Instructions:
-Do not copy this into a code block or within triple backticks in your README.md.
-
-Paste this directly as plain Markdown text into the GitHub README.md editor.
-
