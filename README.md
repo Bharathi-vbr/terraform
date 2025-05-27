@@ -3,6 +3,7 @@
 Provision a scalable AWS infrastructure using Terraform. This setup includes a VPC, public subnets, EC2 instances with user data scripts, and an S3 bucket.
 
 ---
+![My Image](https://github.com/Bharathi-vbr/terraform-aws-infrastructure/raw/main/Image.jpeg)
 
 ## 📌 Project Overview
 
@@ -84,10 +85,6 @@ Use IAM roles or environment variables for authentication.
 ### 🧾 User Data Scripts
 userdata1.sh and userdata2.sh initialize EC2 instances (e.g., installing packages, setting up services).
 
-### 📄 License
-Licensed under the MIT License. See the LICENSE file for details.
-
-Created with ❤️ using Terraform and AWS
 
 ✅ Instructions:
 Do not copy this into a code block or within triple backticks in your README.md.
