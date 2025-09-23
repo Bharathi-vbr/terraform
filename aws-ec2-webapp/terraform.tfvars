@@ -1,0 +1,11 @@
+aws_region           = "us-east-1"
+project_name         = "aws-ec2-userdata-webserver"
+public_subnet_cidrs = "10.0.1.0/16" 
+availability_zone    = ""                # optional (e.g., "us-east-1a")
+instance_type        = "t2.micro"
+ami_id               = "ami-0c55b159cbfafe1f0"  # example Amazon Linux 2 (change for your region)
+key_name             = "my-keypair"      # replace with your key
+user_data_file       = "userdata.sh"
+hosted_zone_id       = "ZXXXXXXXXXXXXX"  # replace with your Route53 hosted zone id
+domain_name          = "demo.example.com" # replace with your FQDN
+create_acm_certificate = true
